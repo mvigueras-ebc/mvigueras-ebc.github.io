@@ -114,7 +114,9 @@ body {
 
 .proyecto-card img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  object-position: center;
   border-radius: 12px;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
