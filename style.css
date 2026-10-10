@@ -120,3 +120,36 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
+/*===== HABILIDADES =====*/
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+  margin: 0;
+}
+
+.habilidad {
+  background-color: rgb(68, 90, 109);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.habilidad:hover {
+  transform: translateY(-5px);
+}
+
+/*===== FOOTER =====*/
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(68, 90, 109);
+  color: ghostwhite;
+  margin-top: 60px;
+}
+
